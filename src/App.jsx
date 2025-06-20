@@ -1,10 +1,10 @@
 import { useState } from 'react'
 import './App.css'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
-import Navbar from './componenets/Navbar'
-import Home from './componenets/Home'
-import Paste from './componenets/Paste'
-import ViewPaste from './componenets/ViewPaste'
+import Navbar from './components/Navbar'
+import Home from './components/Home'
+import Paste from './components/Paste'
+import ViewPaste from './components/ViewPaste'
 const router =createBrowserRouter(
   [
     {path:"/",
